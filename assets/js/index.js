@@ -1,0 +1,1 @@
+$('.row').css("height", $('.row').width()/6);
