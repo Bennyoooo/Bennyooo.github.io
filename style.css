@@ -67,6 +67,7 @@ div {
 
 
 .long {
+    padding: 1%;
     width: 33%;
     background-color: transparent;
 }
@@ -97,3 +98,23 @@ div {
     flex-direction: column;
     justify-content: center;
 }
+
+.sites-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sites {
+    padding-left: 1%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icon {
+    max-width: 50%;
+    max-height: 50%;
+}
+
